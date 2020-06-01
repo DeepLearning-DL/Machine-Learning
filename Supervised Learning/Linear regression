@@ -1,0 +1,35 @@
+Linear regression is a basic type of predictive analysis
+It is used for finding linear relationship between target and one or more predictors
+For your linear regression model, we'll be using scikit-learn's LinearRegression class. This class provides the function fit() to fit the model to your data.
+
+>>> from sklearn.linear_model import LinearRegression
+>>> model = LinearRegression()
+>>> model.fit(x_values, y_values)
+
+In the example above, the model variable is a linear regression model that has been fitted to the data (x_values) and (y_values). 
+Fitting the model means finding the best line that fits the training data.
+Let's take a example "on the average life expectancy at birth and the average BMI for males across the world."
+Data consist of 3 columns
+Country – The country the person was born in.
+Life expectancy – The average life expectancy at birth for a person in that country.
+BMI – The mean BMI of males in that country.
+We will  be predicting the BMI of 21.07931 
+
+# TODO: Add import statements
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+# Assign the dataframe to this variable.
+# TODO: Load the data
+bmi_life_data = pd.read_csv("bmi_and_life_expectancy.csv")
+
+# Make and fit the linear regression model
+#TODO: Fit the model and Assign it to bmi_life_model
+bmi_life_model = LinearRegression()
+bmi_life_model.fit(bmi_life_data[['BMI']], bmi_life_data[['Life expectancy']])
+
+# Mak a prediction using the model
+# TODO: Predict life expectancy for a BMI value of 21.05
+laos_life_exp = bmi_life_model.predict(21.05)
+
+The life expectancy is 60.24183053163962
