@@ -1,0 +1,6 @@
+# Feature Scaling
+
+Feature scaling is a way of transforming your data into a common range of values. There are two common scalings:
+
+1. Standardizing
+2. Normalizing
