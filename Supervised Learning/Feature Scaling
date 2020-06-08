@@ -24,3 +24,7 @@ df["height_normal"] = (df["height"] - df["height"].min()) /     \
                       
 We perform the following steps:
 
+1. Load in the data
+2. Perform feature scaling on data via standardization
+3. Fit data using linear regression
+4. Inspect the coefficients of the regression model
