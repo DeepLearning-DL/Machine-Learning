@@ -11,3 +11,6 @@ Standardizing is completed by taking each value of your column, subtracting the 
 standard deviation of the column.
 Let's take example in Python consider you have a column in df called height. You could create a standardized height as:
   df["height_standard"] = (df["height"] - df["height"].mean()) / df["height"].std()
+
+This will create a new "standardized" column where each value is a comparison to the mean of the column, and a new, standardized value 
+can be interpreted as the number of standard deviations the original height was from the mean
