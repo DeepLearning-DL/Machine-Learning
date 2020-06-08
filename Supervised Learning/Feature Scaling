@@ -1,11 +1,11 @@
-# Feature Scaling
+#Feature Scaling
 
 Feature scaling is a way of transforming your data into a common range of values. There are two common scalings:
 
 1. Standardizing
 2. Normalizing
 
-# Standardizing
+#Standardizing
 
 Standardizing is completed by taking each value of your column, subtracting the mean of the column,and then dividing by the
 standard deviation of the column.
@@ -15,9 +15,12 @@ df["height_standard"] = (df["height"] - df["height"].mean()) / df["height"].std(
 This will create a new "standardized" column where each value is a comparison to the mean of the column, and a new, standardized value 
 can be interpreted as the number of standard deviations the original height was from the mean
 
-# Normalizing
+#Normalizing
 
 The second type of feature scaling that is very popular is normalizing. With normalizing, data are scaled between 0 and 1.
 Using the same example as above, we could perform normalizing in Python in the following way:
 df["height_normal"] = (df["height"] - df["height"].min()) /     \
                       (df["height"].max() - df['height'].min())
+                      
+We perform the following steps:
+
