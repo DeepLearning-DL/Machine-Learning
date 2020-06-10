@@ -1,2 +1,5 @@
 Decision Tree is a Supervised learning technique.
 It can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems.
+In a Decision tree, there are two nodes, which are the Decision Node and Leaf Node. 
+Decision nodes are used to make any decision and have multiple branches, whereas Leaf nodes are the output of those decisions and do not 
+contain any further branches.
