@@ -10,5 +10,4 @@
 - Updates to come
 
 ### Execution
-Clone this Repo to your system and navigate into Algorithm folders run code.py
-
+Clone this Repository to your system and navigate into Algorithm folders run code.py
