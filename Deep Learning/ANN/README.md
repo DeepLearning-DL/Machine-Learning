@@ -11,4 +11,5 @@ Alternatively, An Artificial Neuron Network (ANN) is a computational model based
 ANNs are considered nonlinear statistical data modeling tools where the complex<br> relationships between inputs and outputs are modeled or patterns are found.<br>
 <br>
 ANN is also known as a neural network.
+
 Artificial Neural Networks(ANN) can be used for both, Regression and classification
