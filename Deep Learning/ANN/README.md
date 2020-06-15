@@ -12,4 +12,4 @@ ANNs are considered nonlinear statistical data modeling tools where the complex<
 <br>
 ANN is also known as a neural network.
 
-Artificial Neural Networks(ANN) can be used for both, Regression and classification
+Artificial Neural Networks(ANN) can be used for both, Regression and classification.
