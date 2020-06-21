@@ -6,3 +6,7 @@ SVM can be implemented in three different ways.
 1. Maximum Margin Classifier
 2. Classification with Inseparable Classes
 3. Kernel Methods
+
+Maximum Margin Classifier
+When your data can be completely separated, the linear version of SVMs attempts to maximize the distance from the linear boundary to the closest points
+(called the support vectors).
