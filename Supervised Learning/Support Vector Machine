@@ -2,3 +2,7 @@ Support vector machines (SVMs) are a set of supervised learning methods used for
 It is more popular algorithm used for classification problems.
 
 SVM can be implemented in three different ways.
+
+1. Maximum Margin Classifier
+2. Classification with Inseparable Classes
+3. Kernel Methods
