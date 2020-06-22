@@ -20,3 +20,5 @@ When C is large, you are forcing your boundary to have fewer errors than when it
 
 Note: when C is too large for a particular set of data, you might not get convergence at all because your data cannot be separated with the small number
 of errors allotted with such a large value of C.
+
+# Kernels
