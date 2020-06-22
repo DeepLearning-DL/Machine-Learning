@@ -35,3 +35,5 @@ The rbf kernel allows you the opportunity to classify points that seem hard to s
 This is a density based approach that looks at the closeness of points to one another.
 This introduces another hyper-parameter gamma. When gamma is large, the outcome is similar to having a large value of C,
 that is your algorithm will attempt to classify every point correctly. 
+Alternatively, small values of gamma will try to cluster in a more general way
+that will make more mistakes, but may perform better when it sees new data.
