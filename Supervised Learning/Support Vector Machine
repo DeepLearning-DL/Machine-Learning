@@ -23,3 +23,8 @@ of errors allotted with such a large value of C.
 
 # Kernels
  Kernels in SVMs allow us the ability to separate data when the boundary between them is nonlinear.
+
+There are two types of kernels:
+
+1. polynomial
+2. rbf
