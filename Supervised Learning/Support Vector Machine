@@ -28,3 +28,7 @@ There are two types of kernels:
 
 1. polynomial
 2. rbf
+
+RBF
+Most popular kernel is the rbf kernel (which stands for radial basis function). 
+The rbf kernel allows you the opportunity to classify points that seem hard to separate in any space. 
