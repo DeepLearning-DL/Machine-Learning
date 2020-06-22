@@ -22,3 +22,4 @@ Note: when C is too large for a particular set of data, you might not get conver
 of errors allotted with such a large value of C.
 
 # Kernels
+ Kernels in SVMs allow us the ability to separate data when the boundary between them is nonlinear.
