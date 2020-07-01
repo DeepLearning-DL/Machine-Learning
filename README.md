@@ -8,6 +8,7 @@
 - Matplotlib
 - PIL
 - Updates to come
-## Different Machine Learning Algorithms 
+## Different Machine Learning Algorithms.
+All the Algorithms will be updated soon
 ### Execution
 Clone this Repository to your system and navigate into Algorithm folders run code.py
